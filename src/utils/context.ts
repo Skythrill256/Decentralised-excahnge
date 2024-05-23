@@ -151,7 +151,7 @@ export const getAllHistory = async (): Promise<{ historyId: number, tokenA: stri
   }
 }
 
-const toWei = (amount: string): BigNumber => {
+const towei = (amount: string): BigNumber => {
   const toWei = ethers.utils.parseUnits(amount.toString())
   return toWei
 }
