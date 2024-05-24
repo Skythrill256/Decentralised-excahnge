@@ -1,9 +1,17 @@
-import React from 'react'
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
-const page = () => {
+function Page() {
   return (
-    <div>page</div>
-  )
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'flex-end',
+        padding: 12,
+      }}
+    >
+      <ConnectButton />
+    </div>
+  );
 }
 
-export default page
+export default Page;

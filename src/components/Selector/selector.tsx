@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 const selector = () => {
-  return (
-    <div>selector</div>
-  )
-}
-export default selector
+	return <div>selector</div>;
+};
+export default selector;
